@@ -6,6 +6,9 @@ header{
     display:flex;
     
 }
+h2, p{
+    text-align: center;
+}
 .navlist{
     display: flex;
 }
