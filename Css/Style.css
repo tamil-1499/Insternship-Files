@@ -1,19 +1,52 @@
+body{
+    margin: 0;
+}
 h1{
-    color:aqua;
+    color:firebrick;
 }
 header{
     background-color: rgb(197, 166, 226);
-    display:flex;
     
+}
+.container1{
+    display: flex;
+    width: min(80%, 991px);
+    margin: auto;
 }
 h2, p{
     text-align: center;
 }
 .navlist{
     display: flex;
+    flex-direction: column;
+    margin-left: auto;
 }
 .navlist li{
-    margin: 2rem;
+    margin: 1rem;
+    list-style: none;
+}
+.navlist a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+#index{
+    background-color: rgb(218, 147, 185);
+    height: 100vh;
+    display: grid;
+}
+@media (min-width: 768px) {
+    .navlist {
+    flex-direction: row;
+  }
+  .col1, .col2{
+    margin: 1rem;
+    padding: 1rem;
+}
+.col1{
+    background-color: cadetblue;
+    padding: 1rem;
+}
 }
 .container{
     height: 50vh;
@@ -33,3 +66,4 @@ h2, p{
     background-color: cadetblue;
     padding: 1rem;
 }
+
