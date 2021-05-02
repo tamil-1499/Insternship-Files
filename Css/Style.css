@@ -3,6 +3,7 @@ body{
 }
 h1{
     color:firebrick;
+
 }
 header{
     background-color: rgb(197, 166, 226);
@@ -66,4 +67,45 @@ h2, p{
     background-color: cadetblue;
     padding: 1rem;
 }
+.bgimage{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(https://source.unsplash.com/weekly?animal/1920x1080);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(170, 153, 185);
+    background-blend-mode: overlay;
+}
 
+.container2{
+    /*background-color:dimgrey;*/
+    background-image: url(https://source.unsplash.com/weekly?/sea/800x700);
+    width: min(991px,80%);
+    margin: auto;
+    padding: 2rem;
+}
+img{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+}
+.red{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    border: 5px solid crimson;
+    border-radius: 10px;
+    left: 100px;
+}
+.blue{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border: 3px solid rgb(28, 28, 95);
+    border-radius: 5px;
+    left: 200px;
+}

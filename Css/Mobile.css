@@ -22,7 +22,6 @@ img{
 }
 @media(min-width:768px){
     #intro{
-        /*text-align: center;*/
         flex-direction: row;
         justify-content: center;
     }
